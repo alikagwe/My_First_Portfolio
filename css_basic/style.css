@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+.article {
+    flex: 2;
+    overflow-y: auto;
+}
+.aside {
+    flex: 1;
+    overflow-y: auto;
+}
